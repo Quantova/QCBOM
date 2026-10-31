@@ -1,6 +1,6 @@
 {
   "name": "@quantovainc/qcbom",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Post quantum cryptographic bill of materials attestations. Proves the open, asset, assessment, remediation and close records of a cryptographic inventory, with ML-DSA-65 under FIPS 204 and Quantova time proofs. Only a salted commitment leaves the party that holds the inventory.",
   "main": "index.js",
   "types": "index.d.ts",
