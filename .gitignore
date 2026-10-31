@@ -1,0 +1,6 @@
+node_modules/
+*.qcbom.json
+*.pending.json
+*.key
+.env*
+native/target/

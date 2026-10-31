@@ -1,0 +1,70 @@
+{
+  "name": "@quantovainc/qcbom",
+  "version": "0.1.0",
+  "description": "Post quantum cryptographic bill of materials attestations. Proves the open, asset, assessment, remediation and close records of a cryptographic inventory, with ML-DSA-65 under FIPS 204 and Quantova time proofs. Only a salted commitment leaves the party that holds the inventory.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib/",
+    "wasm/qcbom_native.js",
+    "wasm/qcbom_native_bg.wasm",
+    "wasm/qcbom_native.d.ts",
+    "LICENSE-APACHE",
+    "LICENSE-MIT",
+    "NOTICE",
+    "AUTHORS"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "dependencies": {
+    "@quantovainc/qstamp": "0.6.14"
+  },
+  "keywords": [
+    "post-quantum",
+    "quantum-safe",
+    "cbom",
+    "cryptographic-inventory",
+    "pqc-migration",
+    "supply-chain",
+    "ml-dsa",
+    "fips-204",
+    "quantova"
+  ],
+  "license": "Apache-2.0 OR MIT",
+  "author": "Quantova Inc",
+  "homepage": "https://github.com/Quantova/QCBOM",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quantova/QCBOM.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Quantova/QCBOM/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.5",
+    "eslint": "9.39.1",
+    "eslint-plugin-security": "3.0.1",
+    "globals": "16.5.0"
+  }
+}
